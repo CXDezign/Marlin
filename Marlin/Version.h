@@ -1,6 +1,6 @@
 /**
  * Marlin 3D Printer Firmware
- * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+ * Copyright (c) 2025 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "2.1.3-beta2"
+//#define SHORT_BUILD_VERSION "2.1.3-cxd"
 
 /**
  * Verbose version identifier which should contain a reference to the location
@@ -41,7 +41,7 @@
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-//#define STRING_DISTRIBUTION_DATE "2025-01-16"
+#define STRING_DISTRIBUTION_DATE "16.03.2025"
 
 /**
  * The protocol for communication to the host. Protocol indicates communication
@@ -53,7 +53,7 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-//#define MACHINE_NAME "3D Printer"
+#define MACHINE_NAME "CX3D"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -72,7 +72,7 @@
  * The WEBSITE_URL is the location where users can get more information such as
  * documentation about a specific Marlin release.
  */
-//#define WEBSITE_URL "marlinfw.org"
+#define WEBSITE_URL "cxdezign.dev"
 
 /**
  * Set the vendor info the serial USB interface, if changeable.
