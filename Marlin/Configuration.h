@@ -2371,7 +2371,7 @@
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
-#define HOMING_FEEDRATE_MM_M { (150*60), (150*60), (10*60) }
+#define HOMING_FEEDRATE_MM_M { (150*60), (150*60), (20*60) }
 
 // Edit homing feedrates with M210 and MarlinUI menu items
 #define EDITABLE_HOMING_FEEDRATE
